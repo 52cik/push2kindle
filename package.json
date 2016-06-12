@@ -1,0 +1,34 @@
+{
+  "name": "push2kindle",
+  "version": "0.1.0",
+  "description": "kindle 推送工具 (CLI)",
+  "main": "lib/index.js",
+  "email": {
+    "service": "126",
+    "user": "xxx@126.com",
+    "pass": "xxxxxxx",
+    "kindle": "xxx@kindle.cn"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/52cik/push2kindle.git"
+  },
+  "keywords": [
+    "kindle"
+  ],
+  "author": "52cik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/52cik/push2kindle/issues"
+  },
+  "homepage": "https://github.com/52cik/push2kindle#readme",
+  "dependencies": {
+    "kindle-spider-xiaohua": "github:52cik/kindle-spider-xiaohua",
+    "nodemailer": "^2.4.2",
+    "ora": "^0.2.3"
+  }
+}
