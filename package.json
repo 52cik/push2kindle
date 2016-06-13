@@ -1,6 +1,6 @@
 {
   "name": "push2kindle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "kindle 推送工具 (CLI)",
   "main": "lib/index.js",
   "email": {
