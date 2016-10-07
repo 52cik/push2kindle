@@ -1,16 +1,9 @@
 {
   "name": "push2kindle",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "kindle 推送工具 (CLI)",
   "main": "lib/index.js",
-  "email": {
-    "service": "126",
-    "user": "xxx@126.com",
-    "pass": "xxxxxxx",
-    "kindle": "xxx@kindle.cn"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node lib/index.js"
   },
   "repository": {
